@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>TODO List</h1>
+    <div id="add">
+        <input type="text" id="add-text" name="add-text" placeholder="Enter a note">
+        <button class="add-note" onclick="addNote()">Add</button>
+    </div>
+    <div id="notes">
+        <div class="note">
+            <input type="checkbox">
+            This is a note
+            <button class="delete" onclick="removeNote(this)">Remove</button>
+        </div>
+        <div class="note">
+            <input type="checkbox">
+            This is another note
+            <button class="delete" onclick="removeNote(this)">Remove</button>
+        </div>
+        <div class="note">
+            <input type="checkbox">
+            It's getting boring
+            <button class="delete" onclick="removeNote(this)">Remove</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

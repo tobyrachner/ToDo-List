@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#add {
+    margin: auto;
+    padding: 8px;
+    padding-right: 5px;
+    background-color: hsl(0, 0%, 80%);
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 5px;
+}
+#add-text {
+    width: 80%;
+    height: 30px;
+    font-size: 1.3rem;
+    margin: auto;
+}
+.add-note {
+    width: 15%;
+    height: 37px;
+    margin: 0 0 auto 0;
+    border: none;
+    padding: none;
+}
+
+#notes {
+    margin: auto;
+    max-width: 500px;
+}
+.note {
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.delete {
+    float: right;
+}
